@@ -2,7 +2,7 @@ void main() {
   print(greetEveryone());
 
   print('Add: ${addTwoNumbers(10, 20)}');
-  print('Add: ${addTwoNumbersOptional(10)}');
+  print('Add with optional parameter: ${addTwoNumbersOptional(10)}');
   print(
       'greetPerson with two parameter: ${greetPerson(name: 'Jose', message: 'Hi')}');
   print('greetPerson with one parameter: ${greetPerson(name: 'Jose')}');
